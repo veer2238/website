@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    *{
+        margin: 0;
+    }
+
+    .content{
+        border: 1px solid black;
+        background-color: bisque;
+        color: black;
+        list-style: none;
+        position: absolute;
+        display: none;
+       
+ 
+    }
+
+    .dropdown:hover .content{
+        display: block;
+    }
+
+    .dropdown{
+        position: relative;
+    }
+
+    .content > li{
+        border-bottom: 1px solid black;
+        padding: 12px;
+    }
+</style>
+<body>
+    <div class="main">
+
+        <div class="dropdown">
+        <li>list1</li>
+        <div class="content">
+            <li>home</li>
+            <li>service</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li>list1</li>
+        <div class="content">
+            <li>home</li>
+            <li>service</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li>list1</li>
+        <div class="content">
+            <li>home</li>
+            <li>service</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li>list1</li>
+        <div class="content">
+            <li>home</li>
+            <li>service</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li>list1</li>
+        <div class="content">
+            <li>home</li>
+            <li>service</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li>list1</li>
+        <div class="content">
+            <li>home</li>
+            <li>service</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
